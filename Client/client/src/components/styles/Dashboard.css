@@ -1,0 +1,38 @@
+.dashboard {
+  padding: 20px;
+}
+ 
+.dashboard h2 {
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+ 
+.dashboard p {
+  color: #64748b;
+}
+ 
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 25px;
+}
+ 
+.stat-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+ 
+.stat-card h3 {
+  font-size: 16px;
+  color: #64748b;
+}
+ 
+.stat-card p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-top: 15px;
+}
